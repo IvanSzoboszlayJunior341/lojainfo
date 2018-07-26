@@ -1,15 +1,11 @@
-<!-- Usamos o comando Razor(model) para fazer a refêrencia a classe cliente presente no Dominio.
-        A refêrencia nos ajuda a vincular os dados do formulário á classe Cliente. Portanto, quando o usuário
-        digitar as informações no formulário estará passando direta,emte para a classe cliente.
-            -->
-@model LojaInfo.Models.Dominio.Cliente
+@model LojaInfo.Models.Dominio.Produto
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Formulário de Cadastro de Clientes</title>
+    <title>Formulário de Cadastro de Produto</title>
     <link href="https://fonts.googleapis.com/css?family=Hind|Lato|Open+Sans" rel="stylesheet">
     <style>
         *{
@@ -78,7 +74,7 @@
 </head>
 <body>
     <header>
-        <h1>Cadastro de Clientes</h1>
+        <h1>Cadastro de Produto</h1>
     </header>
     <main>
         <!-- 
@@ -92,14 +88,20 @@
             usada a tecnica lambda(M => m.Nome)
             -->
         
-        @using(Html.BeginForm("Cadastro","Cliente",FormMethod.Post)){
-            <label>Nome:</label>
-            @Html.TextBoxFor(m => m.Nome)
+        @using(Html.BeginForm("Cadastro","Produto",FormMethod.Post)){
+            <label>Nome Do Produto:</label>
+            @Html.TextBoxFor(m => m.NomeProduto)
 
-            <label>E-mail:</label>
-            @Html.TextBoxFor(m => m.Email)
+            <label>Tipo:</label>
+            @Html.TextBoxFor(m => m.Tipo)
 
-            <input type="submit" value="Realizar Cadastro">
+            <label>Preço:</label>
+            @Html.TextBoxFor(m => m.Preco)
+
+            <label>Quantidade:</label>
+            @Html.TextBoxFor(m => m.Quantidade)
+
+            <input type="submit" value="Realizar Cadastrado">
         }
     </main>
     

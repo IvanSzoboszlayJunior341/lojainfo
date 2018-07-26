@@ -12709,23 +12709,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ivan.sjunior\\.nuget\\packages\\": {},
+    "C:\\Users\\ivans\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ivan.sjunior\\Downloads\\LojaInfo\\LojaInfo.csproj",
+      "projectUniqueName": "C:\\Users\\ivans\\Desktop\\atividadeHoje\\LojaInfo\\LojaInfo.csproj",
       "projectName": "LojaInfo",
-      "projectPath": "C:\\Users\\ivan.sjunior\\Downloads\\LojaInfo\\LojaInfo.csproj",
-      "packagesPath": "C:\\Users\\ivan.sjunior\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ivan.sjunior\\Downloads\\LojaInfo\\obj\\",
+      "projectPath": "C:\\Users\\ivans\\Desktop\\atividadeHoje\\LojaInfo\\LojaInfo.csproj",
+      "packagesPath": "C:\\Users\\ivans\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ivans\\Desktop\\atividadeHoje\\LojaInfo\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\ivan.sjunior\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\ivans\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"

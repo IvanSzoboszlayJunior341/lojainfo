@@ -20,3 +20,14 @@ C:\Users\ivan.sjunior\Downloads\LojaInfo\obj\Debug\netcoreapp2.0\LojaInfo.Assemb
 C:\Users\ivan.sjunior\Downloads\LojaInfo\obj\Debug\netcoreapp2.0\LojaInfo.AssemblyInfo.cs
 C:\Users\ivan.sjunior\Downloads\LojaInfo\obj\Debug\netcoreapp2.0\LojaInfo.dll
 C:\Users\ivan.sjunior\Downloads\LojaInfo\obj\Debug\netcoreapp2.0\LojaInfo.pdb
+C:\Users\ivans\Desktop\atividadeHoje\LojaInfo\bin\Debug\netcoreapp2.0\LojaInfo.deps.json
+C:\Users\ivans\Desktop\atividadeHoje\LojaInfo\bin\Debug\netcoreapp2.0\LojaInfo.runtimeconfig.json
+C:\Users\ivans\Desktop\atividadeHoje\LojaInfo\bin\Debug\netcoreapp2.0\LojaInfo.runtimeconfig.dev.json
+C:\Users\ivans\Desktop\atividadeHoje\LojaInfo\bin\Debug\netcoreapp2.0\LojaInfo.dll
+C:\Users\ivans\Desktop\atividadeHoje\LojaInfo\bin\Debug\netcoreapp2.0\LojaInfo.pdb
+C:\Users\ivans\Desktop\atividadeHoje\LojaInfo\obj\Debug\netcoreapp2.0\LojaInfo.csprojResolveAssemblyReference.cache
+C:\Users\ivans\Desktop\atividadeHoje\LojaInfo\obj\Debug\netcoreapp2.0\LojaInfo.csproj.CoreCompileInputs.cache
+C:\Users\ivans\Desktop\atividadeHoje\LojaInfo\obj\Debug\netcoreapp2.0\LojaInfo.AssemblyInfoInputs.cache
+C:\Users\ivans\Desktop\atividadeHoje\LojaInfo\obj\Debug\netcoreapp2.0\LojaInfo.AssemblyInfo.cs
+C:\Users\ivans\Desktop\atividadeHoje\LojaInfo\obj\Debug\netcoreapp2.0\LojaInfo.dll
+C:\Users\ivans\Desktop\atividadeHoje\LojaInfo\obj\Debug\netcoreapp2.0\LojaInfo.pdb

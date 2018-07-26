@@ -39,7 +39,8 @@ namespace LojaInfo
                 {
                     routes.MapRoute(
                         name:"default",
-                        template:"{controller=Cliente}/{action=Index}/{Id?}"
+                        //template:"{controller=Cliente}/{action=Index}/{Id?}"
+                        template:"{controller=Produto}/{action=Index}/{Id?}"
                     );
                 }
             );
