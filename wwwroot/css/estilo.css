@@ -1,0 +1,11 @@
+/*Formatação geral do projeto 
+Utilizando de fontes google
+utilização do framework fontwseome */
+
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    background-color:rgb(100,0,0);
+}

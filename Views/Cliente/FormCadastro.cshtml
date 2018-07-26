@@ -1,0 +1,42 @@
+<!-- Usamos o comando Razor(@model) para fazer a refêrencia a classe cliente presente no Dominio.
+        A refêrencia nos ajuda a vincular os dados do formulário á classe Cliente. Portanto, quando o usuário
+        digitar as informações no formulário estará passando direta,emte para a classe cliente.
+            -->
+@model LojaInfo.Models.Dominio.Cliente
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Formulário de Cadastro de Clientes</title>
+</head>
+<body>
+    <header>
+        <h1>Cadastro de Clientes</h1>
+    </header>
+    <main>
+        <!-- 
+            Nesta parte do código, nós criamos o formulário para cadastro de dados do cliente.
+            Usamos o comando Razor(@using) para dizer que queremos usar o BeginForm e iniciar a criação do formulário.
+            Neste formulário foi setado o nome do método que cadastra as informações do cliente, o Controlador(Cliente)
+            e método de envio de dados(FormMethod.Post)
+
+            Para vincular as caixas de texto do formulário a classe Cliente do Domínio, foi utilizado o comando de 
+            Razor(TextBoxFor). Assim é possivel "amarrar" o que o usuário digita ao atributo da classo Cliente. Foi
+            usada a tecnica lambda(M => m.Nome)
+            -->
+        
+        @using(Html.BeginForm("Cadastro","Cliente",FormMethod.Post)){
+            <label>Nome:</label>
+            @Html.TextBoxFor(m => m.Nome)
+
+            <label>E-mail:</label>
+            @Html.TextBoxFor(m => m.Email)
+
+            <input type="submit" value="Realizar Cadastro">
+        }
+    </main>
+    
+</body>
+</html>

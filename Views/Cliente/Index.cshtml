@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Gerenciar Clientes</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        header{
+            padding: 20px 0px;
+            background-color: rgb(0,0,0);
+            color:rgba(255,255,255,8);
+            text-align: center;
+        }
+        header nav{
+            background-color: rgba(255,0,0,5);
+            margin:10px;
+            padding: 10px 0px;
+        }
+        header nav ul{
+            list-style: none;
+        }
+        header nav li{
+            display: inline-block;
+            padding: 0px 10px;
+        }
+        header nav li a{
+            text-decoration: none;
+            font-family: Arial, Helvetica, sans-serif;
+            color:rgba(255,255,255);
+        }
+        header nav li a:houver{
+            color:rgb(255,150,0);
+        }
+        </style>
+        
+</head>
+<body>
+    <header>
+        <h1>Gerenciar Clientes</h1>
+        <nav>
+            <ul>
+                <!--
+                    Nesta página vamos usar os comandos Razor(uma forma de utilizar) C#
+                        com html segyindo o padrão da arquitetura mvc.
+                        Abaixo usamos o comando Razor para criar um link com ActionLink.
+                        Para usar o Razor, você sempre utilizará (arroba) antes dos comandos.
+                        ActionLink cria um link fazendo uso do controlador e o método presente dentro
+                        deste. Neste caso temos um método FormCadstro que está no controlador Cliente.
+                        Para acessá-lo criar um link chamado Cadastro.
+
+
+                    -->
+                <li>@Html.ActionLink("Cadastro","FormCadastro")</li>
+                
+                <li><a asp-controller="Cliente" asp-action="Atualizar">Atualizar</a></li>
+                
+                <li><a asp-controller="Cliente" asp-action="Deletar">Deletar</a></li>
+                
+                <li><a asp-controller="Cliente" asp-action="Listar">Listar</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+
+        <section>
+            <p>Bem Vindo ao Gerenciador de Clientes</p>
+        </section>
+    </main>
+    <footer>
+        <p>Todos os direitos reservados ao proprietário</p>
+    </footer>
+    
+</body>
+</html>
